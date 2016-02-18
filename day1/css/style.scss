@@ -1,0 +1,17 @@
+body{
+    color: #fff;
+}
+
+.hero-bg{
+    background: url(images/hero-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 690px;
+    margin: 0;
+    padding: 0;
+        
+}
