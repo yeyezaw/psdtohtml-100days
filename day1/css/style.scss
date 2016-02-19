@@ -1,17 +1,25 @@
 body{
-    color: #fff;
+    width: 100%;
+    height: 100%;
+    font-family: 'lato', sans-serif;
 }
 
-.hero-bg{
-    background: url(images/hero-bg.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 690px;
+nav{
+    position: relative;
     margin: 0;
     padding: 0;
+}
+
+#main-page{
+    background: url(images/hero-bg.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 700px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    clear: both;
         
 }
