@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:100italic,300italic,400italic,700italic,900italic);
+
+body{
+    font-family: 'lato';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* ========= Hero Section ========= */
+
+#hero-section{
+        background: #24C6DC; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'lato';
+        font-weight: 400;
+        color: #fff;
+        padding-top: 50px;
+    
+    nav{
+        background-color: rgba(239,243,247,0.3) !important;
+    }
+    
+    .nav.navbar-nav li a{
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 30px;
+    }
+    
+    .nav.navbar-nav .btn-primary{
+        background: #fff;
+        color: #F7A525;
+        border-color: transparent;
+        border-radius: 25px;
+    }
+    
+    h1 {
+        font-family: 'lato';
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+        width: 350px;
+    }
+    
+    input{
+        font-family: 'lato';
+        color: #333;
+        outline: none;
+        padding-left: 20px;
+        word-spacing: 1.2px;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        width: 277px;
+        height: 45px;   
+    }
+    
+    .header-container{
+        padding-top: 50px;
+        a{
+                background: #F7A525;
+                color: #fff;
+                font-size: 20px;
+                height: 45px;
+                width: 180px;
+                border-radius: 25px;
+                margin: 10px 0 10px 20px;    
+        }
+            
+        hr{
+                border-color: #fff;
+                margin-top: 20px;           
+        }
+        
+        span{
+                background: transparent;
+                overflow: hidden;
+                padding: 5px 25px;
+                margin-left: 50px;
+                margin-top: -35px;
+                position: absolute;
+                z-index: 1;
+        }
+        
+        img{    
+                margin-top: 30px;
+                width: 20%;
+        }
+    }
+}
+
+
+
+.para-1{
+    font-size: 18px;
+    line-height: 24px;
+    width: 330px;
+    padding-top: 10px;
+}
+
+.para-2{
+    font-size: 18px;
+    line-height: 24px;
+    width: 350px;
+    margin-top: 80px;
+}
+
+/*========== About Section ==========*/
+
+#about-section{
+    .as-seen{
+        border-bottom: 1px solid #ccc;
+        h2{
+            color: #5F8FC0;
+            font-size: 18px;
+            width: 150px;
+            margin: 0 auto;
+            padding: 30px 0 0 0;
+        }
+    }
+    
+    .companies-group{
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    .features{
+        h2,h3{
+            color: #6F4A9C;
+        }
+        
+        h2{
+            font-weight: 300;
+            width: 450px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px 0;
+        }
+        
+        h3{
+            font-style: italic;
+            font-size: 20px;
+        }
+        
+        p{
+            font-size: 18px;
+            font-weight: 300;
+            color: #333;
+            padding: 0 0 30px 0; 
+        }
+        
+        img{
+            margin-left: 120px;
+        }
+    }
+}
+
+/*============ #Features fees , safe and app ===========*/
+#feature-fees{
+        background: #24C6DC; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'lato';
+        font-weight: 300;
+        color: #fff;
+        margin-top: -110px;
+        position: relative;   
+        overflow: hidden;
+        
+    h2,p{
+        text-align: center;
+        margin: 0;
+    }
+    
+    h2{
+        font-weight: 300;
+        padding: 50px 0 20px 0;
+    }
+    
+    .btn-learnmore{
+        background: #fff;
+        color: #F7A525;
+        border-color: transparent;
+        border-radius: 25px;
+        margin: 30px;
+        width: 170px;
+    }
+}
+
+#feature-safe{
+        padding-top: 80px;
+    h2{
+        color: #6F4A9C;
+        font-size: 36px;
+        font-weight: 300;
+    }
+    
+    p{
+        color: #4a4a4a;
+        font-size: 17px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0 0 40px 0;
+    }
+    
+    .btn-learnmore{
+        background: #fff;
+        color: #F7A525;
+        border-color: #F7A525;
+        border-radius: 25px;
+        width: 170px;
+        margin-bottom: 30px;
+    }
+}
+
+#feature-app{
+        background: #24C6DC; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'lato';
+        font-weight: 300;
+        color: #fff;
+    h2{
+        font-weight: 300;
+        font-size: 36px;
+        padding: 50px 0 20px 0;
+    }
+    
+    p{
+        font-size: 17.5px;
+        padding-bottom: 30px;
+    }
+}
+
+/*========== Download section ============*/
+#download-section{
+    h2{
+        color: #6F4A9C;
+        font-size: 36px;
+        font-weight: 300;
+        padding: 50px 0 20px 0;
+    }
+    
+    p{
+        color: #6e6e6e;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    input{
+        font-family: 'lato';
+        font-size: 18px;
+        color: #333;
+        outline: none;
+        word-spacing: 1.2px;
+        border: 1px solid #fff;
+        border-bottom: 1px solid #333;
+        width: 240px;
+        height: 40px;
+    }
+  
+    
+    a{
+        background: #F7A525;
+        color: #fff;
+        font-size: 20px;
+        height: 45px;
+        width: 180px;
+        border-radius: 25px;
+        margin: 10px 0 10px 20px;    
+    }
+}
