@@ -126,8 +126,11 @@ body {
   font-weight: 300;
   color: #fff;
   margin-top: -110px;
+  /* to cover up phones pic*/
   position: relative;
-  overflow: hidden; }
+  /* to cover up phones pic*/
+  overflow: hidden;
+  /* to cover up phones pic*/ }
   #feature-fees h2, #feature-fees p {
     text-align: center;
     margin: 0; }
@@ -181,32 +184,53 @@ body {
     padding-bottom: 30px; }
 
 /*========== Download section ============*/
-#download-section h2 {
-  color: #6F4A9C;
-  font-size: 36px;
-  font-weight: 300;
-  padding: 50px 0 20px 0; }
-#download-section p {
-  color: #6e6e6e;
-  font-size: 18px;
-  font-weight: 300; }
-#download-section input {
-  font-family: 'lato';
-  font-size: 18px;
-  color: #333;
-  outline: none;
-  word-spacing: 1.2px;
-  border: 1px solid #fff;
-  border-bottom: 1px solid #333;
-  width: 240px;
-  height: 40px; }
-#download-section a {
-  background: #F7A525;
-  color: #fff;
-  font-size: 20px;
-  height: 45px;
-  width: 180px;
-  border-radius: 25px;
-  margin: 10px 0 10px 20px; }
+#download-section {
+  padding: 0 0 30px 0; }
+  #download-section h2 {
+    color: #6F4A9C;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 50px 0 20px 0; }
+  #download-section p {
+    color: #6e6e6e;
+    font-size: 18px;
+    font-weight: 300; }
+  #download-section input {
+    font-family: 'lato';
+    font-size: 18px;
+    color: #333;
+    outline: none;
+    word-spacing: 1.2px;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #333;
+    width: 240px;
+    height: 40px; }
+  #download-section a {
+    background: #F7A525;
+    color: #fff;
+    font-size: 20px;
+    height: 45px;
+    width: 180px;
+    border-radius: 25px;
+    margin: 10px 0 10px 20px; }
+
+/* ============== Links-section =============*/
+#links-section {
+  background: #6F4A9C; }
+  #links-section .links-container {
+    padding: 20px 0 0 0; }
+  #links-section a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fff; }
+  #links-section .social-icons li {
+    display: inline;
+    padding: 0 20px 0 20px; }
+  #links-section .social-icons li:nth-child(1) {
+    font-size: 18px;
+    font-style: italic;
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
